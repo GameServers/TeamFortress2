@@ -1,6 +1,6 @@
-# Fistful Of Frags Dedicated Server
+# Team Fortress 2 Dedicated Server
 
-The follwing docker image allows for running a Fistful Of Frags server
+The follwing docker image allows for running a Team Fortress 2 server
 
 Container Runtime Environment Variables:
 
