@@ -3,7 +3,7 @@ MAINTAINER Jason Rivers <docker@jasonrivers.co.uk>
 
 ENV APPID=232250
 ENV APPDIR=/home/steamsrv/tf2
-ENV APP_SERVER_PORT 27014
+ENV APP_SERVER_PORT 27015
 ENV APP_GAME_NAME tf
 ENV APP_SERVER_MAXPLAYERS 24
 ENV APP_SERVER_MAP ctf_2fort
@@ -14,6 +14,7 @@ RUN mkdir -p /home/steamsrv/.steam/sdk32/              && \
 
 
 EXPOSE ${APP_SERVER_PORT}
+EXPOSE ${APP_SERVER_PORT}/udp
 
 USER steamsrv
 
