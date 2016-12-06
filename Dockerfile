@@ -12,9 +12,6 @@ ENV APP_SERVER_NAME Team Fortress 2 Dedicated Server
 ENV APP_SERVER_CONTACT user@example.com
 ENV APP_SERVER_REGION -1
 
-RUN mkdir -p /home/steamsrv/.steam/sdk32/              && \
-    ln -s /home/steamsrv/steamcmd/linux32/steamclient.so /home/steamsrv/.steam/sdk32/steamclient.so
-
 ADD server.cfg /tmp/server.cfg
 
 
